@@ -1,0 +1,20 @@
+version: '3.5'
+services:
+  ProductService:
+   image: producstmicroservice:v1
+   build:
+    context: ./ProductService
+    dockerfile: Dockerfile
+   environment:
+    - CONNECTIONSTRINGS__DEFAULTCONNECTION=Data Source=Server=V300721LAPHP025\\SQLEXPRESS;Database=UserServiceDb;Trusted_Connection=True;User Id=sa;Password=Kumar9591
+   ports:
+    - "4201:80"
+  UserService:
+   image: usersmicroservice:v1
+   build:
+    context: ./UserService
+    dockerfile: Dockerfile
+   environment:
+    - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=V300721LAPHP025\\SQLEXPRESS;Database=UserServiceDb;Trusted_Connection=True;User Id=sa;Password=Kumar9591
+   ports:
+    - "4202:80"

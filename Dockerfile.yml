@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get -y install python3-pip
+RUN pip3 install curl
+RUN curl.exe -V
+CMD ["/bin/echo", "hello world"]

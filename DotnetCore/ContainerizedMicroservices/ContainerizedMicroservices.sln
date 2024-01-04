@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{4177826A-25D3-423F-86DA-EC5EDBF4C1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice", "ProductMicroservice\ProductMicroservice.csproj", "{F21776E9-13C8-4B45-B5DE-FAFE211CC47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicroservice", "UserMicroservice\UserMicroservice.csproj", "{7749E5C3-A60E-41D1-8BB7-B3B49AAD6768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotAPIGateway", "OcelotAPIGateway\OcelotAPIGateway.csproj", "{D5A80042-A636-419D-BC47-3F4D8D00FCF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21776E9-13C8-4B45-B5DE-FAFE211CC47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21776E9-13C8-4B45-B5DE-FAFE211CC47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21776E9-13C8-4B45-B5DE-FAFE211CC47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21776E9-13C8-4B45-B5DE-FAFE211CC47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7749E5C3-A60E-41D1-8BB7-B3B49AAD6768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7749E5C3-A60E-41D1-8BB7-B3B49AAD6768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7749E5C3-A60E-41D1-8BB7-B3B49AAD6768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7749E5C3-A60E-41D1-8BB7-B3B49AAD6768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A80042-A636-419D-BC47-3F4D8D00FCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A80042-A636-419D-BC47-3F4D8D00FCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A80042-A636-419D-BC47-3F4D8D00FCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A80042-A636-419D-BC47-3F4D8D00FCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F21776E9-13C8-4B45-B5DE-FAFE211CC47D} = {4177826A-25D3-423F-86DA-EC5EDBF4C1BB}
+		{7749E5C3-A60E-41D1-8BB7-B3B49AAD6768} = {4177826A-25D3-423F-86DA-EC5EDBF4C1BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F01B5DB1-83EA-41BD-A9DD-51520BD78D53}
+	EndGlobalSection
+EndGlobal
